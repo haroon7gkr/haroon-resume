@@ -1,0 +1,348 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <style>
+.name{
+font-family: sans-serif;    
+margin-top: 80px;
+margin-left: 40px;
+color: antiquewhite;
+}
+.profession{
+        font-family: sans-serif;
+        margin-left: 30%;
+        color: antiquewhite;
+    }
+.summary{
+    margin-left: 10px;
+}
+
+h1 span{
+animation: animate 1s  ease-in-out;
+
+}
+
+@keyframes animate{
+0%{
+    opacity: 0%;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+}
+100%{
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+}
+}
+h1 span:nth-child(1)
+{
+animation-delay: 0.6s;
+}
+h1 span:nth-child(2)
+{
+animation-delay: 1s;
+}
+h1 span:nth-child(3)
+{
+animation-delay: 1.7s;
+}
+h1 span:nth-child(4)
+{
+animation-delay: 2.3s;
+}
+h1 span:nth-child(5)
+{
+animation-delay: 2.7s;
+}
+h1 span:nth-child(6)
+{
+animation-delay: 3.2s;
+}
+h1 span:nth-child(7)
+{
+animation-delay: 3.7s;
+}
+h1 span:nth-child(8)
+{
+animation-delay: 4s;
+}
+h1 span:nth-child(9)
+{
+animation-delay: 4.3s;
+}
+h1 span:nth-child(10)
+{
+animation-delay: 4.7s;
+}
+h1 span:nth-child(11)
+{
+animation-delay: 5s;
+}
+h1 span:nth-child(12)
+{
+animation-delay: 5.1s;
+}
+h1 span:nth-child(13)
+{
+animation-delay: 5.6s;
+}
+h1 span:nth-child(14)
+{
+animation-delay: 5.9s;
+}
+h1 span:nth-child(15)
+{
+animation-delay: 7s;
+}
+h1 span:nth-child(16)
+{
+animation-delay: 7.3s;
+}
+h1 span:nth-child(17)
+{
+animation-delay: 7.8s;
+}
+h1 span:nth-child(18)
+{
+animation-delay: 8s;
+}
+h1 span:nth-child(19)
+{
+animation-delay: 8.5s;
+}
+h1 span:nth-child(20)
+{
+animation-delay: 8.7s;
+}
+h1 span:nth-child(21)
+{
+animation-delay: 9s;
+}
+h1 span:nth-child(22)
+{
+animation-delay: 9.2s;
+}
+h1 span:nth-child(23)
+{
+animation-delay: 9.5s;
+}
+
+     .gradient-background {
+        background: linear-gradient(300deg,#040D12,#35A29F, #0F2C59);
+        background-size: 180% 180%;
+        animation: gradient-animation 15s ease infinite;
+      }
+      /*  */
+      @keyframes gradient-animation {
+      0% {
+      background-position: 0% 50%;
+      }
+     50% {
+     background-position: 100% 50%;
+     }
+     100% {
+     background-position: 0% 50%;
+     }
+    }
+    /*  */
+    .profile-img {
+    border-radius: 50%;
+    border: 10px solid #35A29F ;
+    }
+    
+    /*  */
+    .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    } 
+    /*  */
+    *{
+        color: antiquewhite;
+    }
+    li{
+        font-size: 20px;
+    }
+    body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #222;
+}
+
+.module {
+  max-width: 450px;
+  padding: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #35A29F, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+/* link */
+a:link {
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color:#91C8E4;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color:  #0F2C59;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="title" class="gradient-background"> 
+        <div class="container-fluid ">
+            <div class="row">
+               <div class="col-md-2 mt-4">             
+                   <img class="profile-img" src="haroon.jpeg" class="d-block p-5  mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200px" width="200px" loading="lazy">
+               </div>
+                <div class="col-md-10">
+                        <h1 class="name">
+                            <span>H</span>
+                            <span>A</span>
+                            <span>R</span>
+                            <span>O</span>
+                            <span>O</span>
+                            <span>N</span>
+                            <span>⠀</span>
+                            <span>I</span>
+                            <span>S</span>
+                            <span>M</span>
+                            <span>A</span>
+                            <span>I</span>
+                            <span>L</span>
+                            <span>⠀</span>
+                            <span>G</span>
+                            <span>A</span>
+                            <span>N</span>
+                            <span>G</span>
+                            <span>R</span>
+                            <span>E</span>
+                            <span>K</span>
+                            <span>A</span>
+                            <span>R</span>
+                        </h1>   
+                    <h2 class="profession"><u>WEB DEVELOPER</u></h3>
+                </div>
+            </div>   
+            <hr>
+           
+             <div class="row">
+              <div class="col-md-4">
+                <div class="module">
+                  <h3 class="summary"><u>SUMMARY</u> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  </h3>
+                  <ul>
+                    <li>A language agnostic creative problem solver with a strong technical skill set and a passion for building better websites.</li>
+                 </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="module">
+                  <h2><u>Education</u> <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                  </h2>
+                   <ul>
+                      <li>ICSE Dr.Babasaheb Ambedkar School.</li>
+                     <li>HSC Dr.AR Undre junior college.</li>
+                     <li>BCA(SCI) Abeda Inamdar Senior college.</li>
+                   </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="module">
+                    <h2><u>Skills</u> <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </h2>
+                    <ul>
+                        <li>Project Management</li>
+                        <li>HTML5, CSS3, JAVASCRIPT</li>
+                        <li>Excel, PPT, Word</li>
+                        <li>Communicative Personality</li>
+                    </ul>
+                </div>
+              </div>
+            </div> 
+             
+    <hr>
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="module style=cursor:pointer">
+                    <h2><u>Awards and Certifications</u> <i class="fa fa-trophy" aria-hidden="true"></i></h2>
+                    <ul>
+                        <li><a href="./certificate/html.pdf">HTML Certificate</a</li>
+                        <li><a href="./certificate/cprogramming.pdf"> C Programming Certificate</a></li>
+                        <li><a href="./certificate/english.pdf">English Certificate</a></li>
+                        <li><a href="./certificate/wordpress.pdf"> Wordpress Certificate</a></li>
+                    </ul> 
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="module">
+                        <h2><u>Other</u> <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                        </h2>
+                        <ul>
+                            <li>My Hobbies:
+                                <ul>
+                                    <li>Playing Cricket.</li>
+                                    <li>Watching Football.</li>
+                                    <li>Spending quality time with family and friends.</li>
+                                </ul>
+                            </li>
+                            <li>Contact:
+                                <ul>
+                                <li>Phone Number: <u>9422543785</u></li>
+                                <li>Email: <u>harry7ff@gmail.com</u></li>
+                            </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="col-md-4">
+                        <div class="module">
+                            <h2><u>Work Experience</u> <i class="fa fa-wrench" aria-hidden="true"></i>
+                            </h2>
+                            <ul> <li>Fresher</li></ul>
+                        </div>
+                </div>
+            </div>
+             
+    
+    
+    <hr>
+     <footer>
+          <p>© 2023 HaroonGkr. All rights reserved</p>
+     </footer>
+        </div>
+    </section>
+    </body>
+    
+</html> 
+
+
